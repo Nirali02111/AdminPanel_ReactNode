@@ -1,0 +1,177 @@
+// If you want to override variables do it here
+@import "variables";
+$enable-ltr: true;
+$enable-rtl: true;
+// Import CoreUI for React components library
+@import "@coreui/coreui/scss/coreui";
+// Import Chart.js custom tooltips styles
+@import "@coreui/chartjs/scss/coreui-chartjs";
+@import "layout";
+@import "example";
+// If you want to add custom CSS you can put it here.
+@import "custom";
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black color */
+    z-index: 999;
+    /* Adjust the z-index to ensure it's above other content */
+}
+
+
+/* Other styles for the modal and its overlay */
+
+// If you want to override variables do it here
+@import "variables";
+$enable-ltr: true;
+$enable-rtl: true;
+// Import CoreUI for React components library
+@import "@coreui/coreui/scss/coreui";
+// Import Chart.js custom tooltips styles
+@import "@coreui/chartjs/scss/coreui-chartjs";
+@import "layout";
+@import "example";
+// If you want to add custom CSS you can put it here.
+@import "custom";
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black color */
+    z-index: 999;
+    /* Adjust the z-index to ensure it's above other content */
+}
+
+// $light-gray: rgba(128, 128, 128, 0.249);
+// $header-green: #00695C;
+// $sidebar-gray: #222D32;
+// $nav-width: 230px;
+// * {
+// 	box-sizing: border-box;
+// }
+// body {
+// 	margin: 0;
+// }
+// @mixin flex-center {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+// #SidebarNav {
+// 	width: $nav-width;
+// 	color: white;
+// 	background: $sidebar-gray;
+// 	display: flex;
+// 	flex-flow: column;
+// 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+// 	.user {
+// 		margin: 30px 10px;
+// 		.name {
+// 			font-size: 1.3em;
+// 		}
+// 	}
+// 	nav {
+// 		flex: 1;
+// 		ul {
+// 			list-style-type: none;
+// 			margin: 0;
+// 			padding: 0;
+// 			li {
+// 				a {
+// 					display: block;
+// 					padding: 15px 10px;
+// 					&.active {
+// 						border-left: 4px solid $header-green;
+// 						background: rgba(0, 0, 0, 0.529);
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	a {
+// 		text-decoration: none;
+// 		color: white;
+// 	}
+// }
+// #Header {
+// 	width: 100%;
+// 	display: flex;
+// 	height: 45px;
+// 	color: white;
+// 	background: $header-green;
+// 	.logo {
+// 		width: $nav-width;
+// 		@include flex-center();
+// 		background: $light-gray;
+// 		font-size: 1.4em;
+// 		font-family: Verdana, Geneva, Tahoma, sans-serif;
+// 	}
+// 	.header-nav {
+// 		flex: 1;
+// 		display: flex;
+// 		justify-content: space-between;
+// 		align-items: center;
+// 		.menu-button {
+// 			padding: 11.5px 15px;
+// 			transition: 0.3s;
+// 			cursor: pointer;
+// 			&:hover {
+// 				background: $light-gray;
+// 			}
+// 		}
+// 		.user-action {
+// 			position: relative;
+// 			padding: 10px;
+// 			&:hover {
+// 				.actions {
+// 					display: block;
+// 				}
+// 			}
+// 			.label {
+// 				cursor: pointer;
+// 			}
+// 			.actions {
+// 				cursor: pointer;
+// 				position: absolute;
+// 				right: 0;
+// 				bottom: 0;
+// 				transform: translateY(100%);
+// 				width: 150px;
+// 				display: none;
+// 				ul {
+// 					list-style-type: none;
+// 					margin: 0;
+// 					padding: 0;
+// 					color: black;
+// 					box-shadow: 0 0 10px gray;
+// 					li {
+// 						display: block;
+// 						@include flex-center();
+// 						padding: 10px;
+// 						gap: 2px;
+// 						transition: 0.3s;
+// 						&:hover {
+// 							background: $light-gray;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// #DashboardLayout {
+// 	display: flex;
+// 	flex-flow: column;
+// 	height: 100vh;
+// 	.nav {
+// 		flex: 1;
+// 		display: flex;
+// 	}
+// }
